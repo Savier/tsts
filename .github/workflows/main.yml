@@ -17,4 +17,4 @@ jobs:
         env:
           COVERAGE: true
           RAILS_ENV: test
-        run: docker-compose run --rm api pytest
+        run: docker-compose --file docker-compose.ci.yml run --rm api pytest
