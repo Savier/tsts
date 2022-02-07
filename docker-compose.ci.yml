@@ -25,7 +25,6 @@ services:
       - db
     ports:
       - "8000:8000"
-    volumes: *api-volumes
     stdin_open: true
     tty: true
 
